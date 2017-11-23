@@ -12,12 +12,24 @@ public class Exam02 {
 		
 		if(op.equals("+")) {
 			result = a+b;
+		}else if(op.equals("-")){
+			result = a-b;
+		}else if(op.equals("*")){
+			result = a*b;
+		}else if(op.equals("/")){
+			result = a/b;
+		}else if(op.equals("%")) {
+			result = a%b;
+		}else {
+			System.out.println("연산자는 +,-,*,/ 만 입력가능합니다.");
+			System.exit(0); //result값 안나오고 강제종료
 		}
 		
 		//System.out.printf("a와 b를 더한 값은 %d", a+b);
 		//System.out.println("a와 b를 더한 값은 ", (a+b));
 		//System.out.println("a = " + a + ", b = " + b +", op = " + op);
 		System.out.println("result = " + result);
+		s.close(); //(System.in) in을 썼으면 꺼야됨 안써도됨
 	}
 
 }
