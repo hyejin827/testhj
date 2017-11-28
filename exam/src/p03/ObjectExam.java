@@ -20,7 +20,7 @@ public class ObjectExam {
 		return num2;
 	}
 	
-	void inputNums() {
+	public void inputNums() {
 		Scanner s = new Scanner(System.in); //얘도 생성자, (파라매터)가 있기때문에 기본생성자 ㄴㄴ
 		System.out.println("첫번째 숫자를 입력해주세요");
 		num1 = s.nextInt();
