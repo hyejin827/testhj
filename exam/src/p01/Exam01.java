@@ -8,6 +8,7 @@ public class Exam01 {
 		//a와 b를 곱한값을 출력해주세요
 		int a=3;
 		int b=4;
+		int c=5;
 		System.out.println(a*b);
 		System.out.println(a+b);
 		System.out.println(a-b);
